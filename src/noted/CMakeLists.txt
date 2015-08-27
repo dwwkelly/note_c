@@ -1,0 +1,5 @@
+set(SRCS conf.c  main.c noted.c  parse.c)
+include_directories(../../include)
+add_executable(noted ${SRCS})
+target_link_libraries(noted notecommon)
+target_link_libraries(noted json-c)

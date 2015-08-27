@@ -1,0 +1,7 @@
+Depenencies
+===========
+
+* ``libbson``
+* ``mongoc``
+* ``json-c``
+* ``zeromq``
