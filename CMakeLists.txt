@@ -2,6 +2,7 @@ cmake_minimum_required (VERSION 2.6)
 project(note)
 
 add_subdirectory(src)
+add_subdirectory(include)
 
 # uninstall target
 configure_file(
